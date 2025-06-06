@@ -16,7 +16,7 @@ def main():
     args = parse_args()
 
     if args.version:
-        print(f"{BOLD}rdap-pretty v{__version__}{ENDC}")
+        print(f"{BOLD}whois-pretty v{__version__}{ENDC}")
         return
 
     ip = args.ip
@@ -30,8 +30,8 @@ def main():
 
 def parse_args():
     parser = argparse.ArgumentParser(
-        prog="rdap-pretty",
-        description="Pretty printer for IP WHOIS info using RDAP JSON"
+        prog="whois-pretty",
+        description="Pretty printer for IP WHOIS info using rdap JSON"
     )
     parser.add_argument("ip", help="IP address to look up")
     parser.add_argument("-v", "--version", action="store_true", help="Show version and exit")

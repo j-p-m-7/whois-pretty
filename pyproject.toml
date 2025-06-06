@@ -1,5 +1,5 @@
 [project]
-name = "whois"
+name = "whois-pretty"
 version = "0.1.0"
 description = "Pretty prints WHOIS or RDAP data for improved readability."
 readme = "README.md"
@@ -12,7 +12,7 @@ dependencies = [
 ]
 
 [project.scripts]
-whois = "whois:main"
+whois-pretty = "whois_pretty:main"
 
 [build-system]
 requires = ["hatchling"]
