@@ -1,0 +1,19 @@
+[project]
+name = "whois"
+version = "0.1.0"
+description = "Pretty prints WHOIS or RDAP data for improved readability."
+readme = "README.md"
+authors = [
+    { name = "jpm7", email = "jpm7@jpm7.org" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "requests>=2.32.3",
+]
+
+[project.scripts]
+whois = "whois:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
