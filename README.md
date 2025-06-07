@@ -17,7 +17,6 @@ $ uv tool install git+https://github.com/j-p-m-7/whois-pretty
 ```bash
 $ whois 17.248.195.64
 
-
 WHOIS Summary for 17.248.195.64
 
 	CIDR:           17.0.0.0/8
