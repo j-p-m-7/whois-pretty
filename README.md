@@ -9,13 +9,13 @@ CLI tool that outputs RDAP info in pretty format
 Can be installed with uv via:
 
 ```bash
-uv tool install git+https://github.com/j-p-m-7/whois-pretty
+> uv tool install git+https://github.com/j-p-m-7/whois-pretty
 ```
 
 ### Sample usage
 
 ```bash
-whois 17.248.195.64
+> whois 17.248.195.64
 ```
 
 ```bash
