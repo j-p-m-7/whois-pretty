@@ -18,4 +18,4 @@ $ uv tool install git+https://github.com/j-p-m-7/whois-pretty
 $ whois 17.248.195.64
 ```
 
-![alt text](img.png)
+<img src="https://raw.githubusercontent.com/j-p-m-7/whois-pretty/refs/heads/main/img.png" alt="Logo" width="200"/>
