@@ -16,9 +16,8 @@ Can be installed with uv via:
 
 ```bash
 > whois 17.248.195.64
-```
 
-```bash
+
 WHOIS Summary for 17.248.195.64
 
 	CIDR:           17.0.0.0/8
